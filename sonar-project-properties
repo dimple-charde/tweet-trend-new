@@ -1,0 +1,9 @@
+sonar.verbose=true
+sonar.organization=dc-project
+sonar.projectKey=dc_twittertrend
+sonar.projectName=twittertrend
+sonar.language=java
+sonar.sourceEncoding=UTF-8
+sonar.sources=.
+sonar.java.binaries=target/classes
+sonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
