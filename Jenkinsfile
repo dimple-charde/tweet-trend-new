@@ -4,10 +4,9 @@ pipeline {
             label 'maven'
         }
     }
-<<<<<<< HEAD
+
 environment {
     PATH ="/opt/apache-maven-3.9.6/bin:$PATH"
-=======
 
     stages {
         stage("Clone-code-dc"){
@@ -17,7 +16,7 @@ environment {
         	}
         
 	}
->>>>>>> b55a3390a3258b0cf68ce3d70425d428e246926f
+
 }
     stages {
         stage("build"){
