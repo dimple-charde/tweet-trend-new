@@ -4,19 +4,8 @@ pipeline {
             label 'maven'
         }
     }
-
 environment {
     PATH ="/opt/apache-maven-3.9.6/bin:$PATH"
-
-    stages {
-        stage("Clone-code-dc"){
-            steps {
-                 git branch : 'main' , url: 'https://github.com/dimple-charde/tweet-trend-new.git'
-           		 }
-        	}
-        
-	}
-
 }
     stages {
         stage("build"){
