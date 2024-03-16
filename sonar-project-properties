@@ -1,5 +1,5 @@
 sonar.verbose=true
-sonar.organization=dc-project
+sonar.organization=dc-projec
 sonar.projectKey=dc_twittertrend
 sonar.projectName=twittertrend
 sonar.language=java
