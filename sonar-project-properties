@@ -1,7 +1,7 @@
 sonar.verbose=true
-sonar.organization=dc-projec
-sonar.projectKey=dc_twittertrend
+sonar.organization=dc-project
 sonar.projectName=twittertrend
+sonar.projectKey=dc_twittertrend
 sonar.language=java
 sonar.sourceEncoding=UTF-8
 sonar.sources=.
