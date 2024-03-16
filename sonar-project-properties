@@ -1,9 +1,0 @@
-sonar.verbose=true
-sonar.organization=dimple-org-key
-sonar.projectName=dimple-project
-sonar.projectKey=dimple-project-key
-sonar.language=java
-sonar.sourceEncoding=UTF-8
-sonar.sources=.
-sonar.java.binaries=target/classes
-sonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
